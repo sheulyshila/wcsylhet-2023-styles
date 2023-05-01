@@ -278,7 +278,6 @@ h1.wp-block-post-title {
 }
 
 
-
 .page-slug-tickets .wp-site-blocks > * + * {
     margin-block-start: 0rem;
 }
@@ -476,6 +475,95 @@ body.single-post h1.wp-block-post-title, body.single-wcb_sponsor h1.wp-block-pos
 .single-post .wp-block-post-featured-image {
     display: none;
 }
+/*Schedule page css*/
+.schedule-date1 {
+	background-color: #EAEAEA;
+	padding: 10px;
+	border-radius: 4px;
+}
+
+.schedule-date2 {
+	background: #FFFBFA;
+	padding: 10px;
+	border-radius: 4px;
+}
+
+.wc-sylhet-schedule-page-banner {
+	background-image: url('https://sylhet.wordcamp.org/2023/files/2023/04/BG-1-1.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+
+
+.wcs-schedule-17 .wordcamp-schedule__column-header {
+	background: #64B904 !important;
+	color: #fff;
+	padding: 20px !important;
+	font-weight: 600;
+	font-size: 21px;
+	line-height: 36px;
+	position: inherit !important;
+}
+
+.wcs-schedule-17 .wordcamp-schedule__session .wcb-session-favourite-icon {
+	display: none;
+}
+
+.wcs-schedule-17 h3:first-child {
+	background-color: #FFB27A !important;
+	/*box-shadow: 0 0 1px 1px #E0E5E9;*/
+	border-radius: 0;
+	padding: 20px !important;
+}
+
+.wcs-schedule-17 .wordcamp-schedule__session {
+	background-color: #EAEAEA !important;
+}
+
+.wcs-schedule-17 p {
+	display: none;
+}
+.wcs-schedule-17 .wordcamp-schedule__session-title a{
+	color:#1C1B1F!important;
+	font-weight: 600;
+  font-size: 21px;
+  line-height: 36px;
+}
+.wcs-schedule-box-session .wp-block-media-text{
+	border-radius:12px;
+}
+.wcs-schedule-box-session .wp-block-media-text__media {
+	border-radius:12px 0px 0px 12px;
+}
+
+/*attendee page css*/
+.page-id-14 .site_header_wrap {
+	background-color: #F4F1E9;
+}
+
+.page-id-14 .wp-block-group-is-layout-flow {
+	margin-top: 0 !important;
+}
+
+.page-id-14 .entry-content {
+	margin-block-start: 0 !important;
+}
+
+.wcs-breadcrumb-page {
+	color: rgb(0 0 0 / 50%);
+}
+
+.wcs-attendee-bg {
+	background-image: url('https://sylhet.wordcamp.org/2023/files/2023/04/BG-2-1.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin-top: 0 !important;
+}
+
+
 
 @media only screen and (max-width: 769px) {
 
@@ -483,4 +571,12 @@ body.single-post h1.wp-block-post-title, body.single-wcb_sponsor h1.wp-block-pos
 		width: 50%;
 	}	
 
+}
+
+/*media Query*/
+@media screen and (min-width: 320px) and (max-width: 480px) {
+	.wcs-attendee-bg {
+		min-height: 250px !important;
+		padding-top: 20px !important;
+	}
 }
